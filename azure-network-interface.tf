@@ -20,7 +20,7 @@ tags = {
 }
 
 resource "azurerm_network_interface" "azure-netif-eus01" {
-resource_group_name = azurerm_resource_group.azure-dev-rg01-eastUS2.name
+resource_group_name = azurerm_resource_group.azure-dev-rg02-eastUS2.name
 location = azurerm_virtual_network.azure-vnet-eus2.location
 name = "netif-eus01"
 dns_servers = ["8.8.8.8" , "8.8.4.4"]
