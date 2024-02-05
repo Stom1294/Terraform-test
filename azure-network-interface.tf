@@ -32,6 +32,7 @@ ip_configuration {
   primary = true
   private_ip_address_version = "IPv4"
 }
+}
 tags ={
     Owner="Sneha Thomas"
     Project="CBT training"
